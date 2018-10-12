@@ -19,7 +19,7 @@ int main()
     }
     for(ll i = 0 ; i < n ; i++)
     {
-        b=(i+k)%n;
+        b=(i+k)%n;// To rotate
         v[b]=v1[i];
     }
     while(q--)
