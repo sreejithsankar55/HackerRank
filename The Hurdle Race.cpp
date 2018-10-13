@@ -4,17 +4,15 @@
 #include<bits/stdc++.h>
 #define ll long long
 #define ld long double
-#define pb  push_back
-#define mp  make_pair
 #define ff  first
 #define ss  second
 using namespace std ;
 
 int main()
 {
-    ll n,m,b,maxi=0;
+    ll n,m,b,maxi=0,i;
     cin>>n>>m;
-    for(ll i = 0 ; i < n ; i++ )
+    for( i = 0 ; i < n ; i++ )
     {
         cin>>b;
         maxi=max(b,maxi);
