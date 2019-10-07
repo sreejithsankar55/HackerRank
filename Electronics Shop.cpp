@@ -33,8 +33,8 @@ int main()
                 f=1;
                 if((b-(v[i]+v1[j]))<=mini&&((b-(v[i]+v1[j]))>=0))
                 {
-                    mini=b-(v[i]+v1[j]); // keep brackets always
                     sum=v[i]+v1[j];
+                    mini=b-sum;
                 }  
             }
         }        
