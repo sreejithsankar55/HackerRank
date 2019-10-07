@@ -22,7 +22,7 @@ int main()
             s.erase(y);
         else
         {
-            if(s.find(y)!=s.end())
+            if(s.count(y))
                 cout<<"Yes"<<endl;
             else
                 cout<<"No"<<endl;
