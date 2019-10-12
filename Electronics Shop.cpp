@@ -16,13 +16,11 @@ int main()
     vector < ll > v(n),v1(m);
     for(ll i = 0 ; i < n ; i++)
     {
-        cin>>k;
-        v[i]=k;
+        cin>>v[i];
     }
     for(ll i = 0 ; i < m ; i++)
     {
-        cin>>k;
-        v1[i]=k;
+        cin>>v1[i];
     }
     for(ll i = 0 ; i < n ; i++)
     {
